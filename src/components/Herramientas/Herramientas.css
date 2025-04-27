@@ -1,0 +1,109 @@
+.herramientas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 28px;
+    max-width: 300px;
+    border: 4px solid #275EB1;
+    border-radius: 31px;
+    text-align: center;
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .herramientas {
+      padding: 24px;
+      max-width: 280px;
+      border-width: 3px;
+      border-radius: 28px;
+    }
+    
+    .herramientas__imagen {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 18px;
+    }
+    
+    .herramientas__texto h3 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+    
+    .herramientas__texto p {
+      font-size: 15px;
+    }
+}
+  
+/* Tablet pequeña (600px - 768px) */
+@media (max-width: 768px) {
+    .herramientas {
+      padding: 20px;
+      max-width: 240px;
+      border-radius: 24px;
+      margin: 8px;
+    }
+    
+    .herramientas__imagen {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 15px;
+    }
+    
+    .herramientas__texto h3 {
+      font-size: 17px;
+    }
+    
+    .herramientas__texto p {
+      font-size: 14px;
+    }
+}
+
+/* Mobile (menos de 600px) */
+@media (max-width: 600px) {
+    .herramientas {
+      width: 100%;
+      max-width: none;
+      padding: 20px 15px;
+      border-width: 2px;
+      border-radius: 20px;
+      margin: 8px 0;
+      flex-direction: row;
+      text-align: left;
+      align-items: flex-start;
+    }
+    
+    .herramientas__imagen {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 0;
+      margin-right: 15px;
+    }
+    
+    .herramientas__texto h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    
+    .herramientas__texto p {
+      font-size: 13px;
+      line-height: 1.4;
+    }
+  }
+  
+/* Mobile pequeño (menos de 400px) */
+@media (max-width: 400px) {
+    .herramientas {
+      padding: 15px 12px;
+    }
+    
+    .herramientas__imagen {
+      width: 45px;
+      height: 45px;
+      margin-right: 12px;
+    }
+    
+    .herramientas__texto h3 {
+      font-size: 15px;
+    }
+}

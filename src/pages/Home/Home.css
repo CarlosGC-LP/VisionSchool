@@ -1,0 +1,95 @@
+.herramientas__contenido h2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 41px;
+}
+.herramientas__contenido--cards {
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonios h2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 41px;
+}
+
+.testimonios__contenido {
+    gap: 20px;
+    max-width: 1000px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilos para tabletas (768px o menos) */
+@media (max-width: 768px) {
+    .herramientas__contenido h2,
+    .testimonios h2 {
+      font-size: 32px;
+      padding: 10px;
+    }
+    
+    .herramientas__contenido--cards,
+    .testimonios__contenido {
+      justify-content: center;
+    }
+}
+
+/* Estilos para móviles (480px o menos) */
+@media (max-width: 480px) {
+    .herramientas__contenido h2,
+    .testimonios h2 {
+      font-size: 28px;
+      padding: 8px;
+    }
+    
+    .herramientas__contenido--cards,
+    .testimonios__contenido {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0 15px;
+    }
+    
+    /* Asegura que las cards ocupen el ancho completo en móviles */
+    .herramientas__contenido--cards > *,
+    .testimonios__contenido > * {
+      width: 100%;
+      max-width: 300px;
+    }
+}
+
+/* Estilos adicionales para el layout general */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header y Footer responsivos */
+@media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    .header__nav-ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .footer__contenido {
+      flex-direction: column;
+      gap: 30px;
+    }
+}

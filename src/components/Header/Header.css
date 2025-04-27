@@ -1,0 +1,160 @@
+.header {
+    background-color: #275EB1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 38px;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 26px;
+    gap: 15px;
+}
+
+.header__logo-texto {
+    font-size: 36px;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+}
+
+.header__nav-ul li:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s;
+}
+
+.header__nav-ul button:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s;
+}
+
+.header__nav-list {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header__nav-list--btn {
+    background-color: #FFFFFF;
+    color: #275EB1;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Menú hamburguesa (mobile) */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+    .header {
+      padding: 10px 15px;
+      flex-wrap: wrap;
+    }
+    
+    .header__logo-texto {
+      font-size: 20px;
+    }
+    
+    .menu-toggle {
+      display: block;
+    }
+    
+    .header__nav {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 80%;
+      height: 100vh;
+      background-color: #275EB1;
+      flex-direction: column;
+      justify-content: center;
+      transition: all 0.5s ease;
+      padding-top: 80px;
+    }
+    
+    .header__nav.active {
+      left: 0;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .header__nav-ul {
+      flex-direction: column;
+      gap: 30px;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .header__nav-list {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+    
+    .header__nav-list--btn {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+    }
+}
+  
+@media (max-width: 480px) {
+    .header__logo-texto {
+      font-size: 18px;
+    }
+    
+    .header__logo-imagen {
+      height: 30px;
+    }
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .header {
+      padding: 12px 25px;
+    }
+    
+    .header__logo-texto {
+      font-size: 24px;
+    }
+    
+    .header__logo-imagen {
+      height: 40px;
+    }
+    
+    .header__nav-ul {
+      gap: 20px;
+    }
+    
+    .header__nav-list {
+      font-size: 15px;
+    }
+    
+    .header__nav-list--btn {
+      padding: 8px 16px;
+      font-size: 15px;
+    }
+}

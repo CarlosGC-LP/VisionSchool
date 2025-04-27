@@ -1,0 +1,74 @@
+.register__contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.register__contenido--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register__contenido--logo h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.register__contenido--formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    overflow: auto;
+    border: 2px solid #275EB1;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.register__contenido--formulario--form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register__contenido--formulario--form label {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.register__contenido--formulario--form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #275EB1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.register__contenido--formulario--form button[type="submit"] {
+    background-color: #275EB1;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
