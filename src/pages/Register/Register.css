@@ -72,3 +72,50 @@
     justify-content: center;
     align-items: center;
 }
+
+/* Tablet (≤ 1024px) */
+@media (max-width: 1024px) {
+    .register__contenido {
+        flex-direction: column;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .register__contenido--logo h2 {
+        font-size: 42px;
+    }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+    .register__contenido {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .register__contenido--logo h2 {
+        font-size: 36px;
+    }
+
+    .register__contenido--formulario {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+/* Mobile (≤ 480px) */
+@media (max-width: 480px) {
+    .register__contenido {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .register__contenido--logo h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .register__contenido--formulario {
+        padding: 15px;
+    }
+}
