@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6bb8b059.css",
+    "main.js": "/static/js/main.83b0458c.js",
+    "static/media/imagen_about.png": "/static/media/imagen_about.bbfab0bd816d5cc82e3b.png",
+    "static/media/imagen_inicio.png": "/static/media/imagen_inicio.2cb0e0c1e81a546c71b2.png",
+    "static/media/alerta.png": "/static/media/alerta.e8d2bdb39b619f65c5df.png",
+    "static/media/grafico_datos.png": "/static/media/grafico_datos.ab0e096f9853fedaa776.png",
+    "static/media/grafico_predicion.png": "/static/media/grafico_predicion.de41170aad6d5be2059c.png",
+    "static/media/testimonio2.png": "/static/media/testimonio2.e22496227ee8b8d0affd.png",
+    "static/media/testimonio3.png": "/static/media/testimonio3.78d69457e8c5aebb2822.png",
+    "static/media/testimonio1.png": "/static/media/testimonio1.4c369fceddce71fbc561.png",
+    "static/media/testimonio4.png": "/static/media/testimonio4.bf3fa549378ca1661966.png",
+    "index.html": "/index.html",
+    "main.6bb8b059.css.map": "/static/css/main.6bb8b059.css.map",
+    "main.83b0458c.js.map": "/static/js/main.83b0458c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb8b059.css",
+    "static/js/main.83b0458c.js"
+  ]
+}
