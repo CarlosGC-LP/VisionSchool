@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VisionSchool/static/css/main.6bb8b059.css",
+    "main.js": "/VisionSchool/static/js/main.0930d323.js",
+    "static/media/imagen_about.png": "/VisionSchool/static/media/imagen_about.bbfab0bd816d5cc82e3b.png",
+    "static/media/imagen_inicio.png": "/VisionSchool/static/media/imagen_inicio.2cb0e0c1e81a546c71b2.png",
+    "static/media/alerta.png": "/VisionSchool/static/media/alerta.e8d2bdb39b619f65c5df.png",
+    "static/media/grafico_datos.png": "/VisionSchool/static/media/grafico_datos.ab0e096f9853fedaa776.png",
+    "static/media/grafico_predicion.png": "/VisionSchool/static/media/grafico_predicion.de41170aad6d5be2059c.png",
+    "static/media/testimonio2.png": "/VisionSchool/static/media/testimonio2.e22496227ee8b8d0affd.png",
+    "static/media/testimonio3.png": "/VisionSchool/static/media/testimonio3.78d69457e8c5aebb2822.png",
+    "static/media/testimonio1.png": "/VisionSchool/static/media/testimonio1.4c369fceddce71fbc561.png",
+    "static/media/testimonio4.png": "/VisionSchool/static/media/testimonio4.bf3fa549378ca1661966.png",
+    "index.html": "/VisionSchool/index.html",
+    "main.6bb8b059.css.map": "/VisionSchool/static/css/main.6bb8b059.css.map",
+    "main.0930d323.js.map": "/VisionSchool/static/js/main.0930d323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb8b059.css",
+    "static/js/main.0930d323.js"
+  ]
+}
